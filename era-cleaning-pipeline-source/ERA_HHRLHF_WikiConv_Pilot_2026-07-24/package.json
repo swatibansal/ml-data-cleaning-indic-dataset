@@ -1,0 +1,14 @@
+{
+  "name": "era-hhrlhf-wikiconv-pilot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test era-adapter.test.mjs era-sharellama-wikihow-adapter.test.mjs era-auto-route.test.mjs era-privacy-policy-apply.test.mjs era-pii-scrub.test.mjs era-corrective-audit.test.mjs stage5-dedup-audit.test.mjs stage6-privacy-audit.test.mjs stage7-security-audit.test.mjs"
+  },
+  "dependencies": {
+    "fzstd": "^0.1.1",
+    "hyparquet": "^1.23.2",
+    "hyparquet-compressors": "^1.1.1"
+  }
+}

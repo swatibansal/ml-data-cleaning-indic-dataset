@@ -1,0 +1,870 @@
+{
+  "components": {
+    "HHRLHF_T": {
+      "per_language": {
+        "asm_Beng": {
+          "records": 327,
+          "tokens": 61945,
+          "tokens_per_word": 2.4345,
+          "turn_texts": 654,
+          "words": 25445
+        },
+        "asm_Latn": {
+          "records": 366,
+          "tokens": 74331,
+          "tokens_per_word": 2.6163,
+          "turn_texts": 732,
+          "words": 28411
+        },
+        "ben_Beng": {
+          "records": 373,
+          "tokens": 57674,
+          "tokens_per_word": 2.0717,
+          "turn_texts": 746,
+          "words": 27839
+        },
+        "ben_Latn": {
+          "records": 341,
+          "tokens": 68899,
+          "tokens_per_word": 2.5374,
+          "turn_texts": 682,
+          "words": 27153
+        },
+        "eng_Latn": {
+          "records": 365,
+          "tokens": 34014,
+          "tokens_per_word": 1.1661,
+          "turn_texts": 730,
+          "words": 29169
+        },
+        "guj_Gujr": {
+          "records": 327,
+          "tokens": 64386,
+          "tokens_per_word": 2.1623,
+          "turn_texts": 654,
+          "words": 29777
+        },
+        "hin_Deva": {
+          "records": 350,
+          "tokens": 52402,
+          "tokens_per_word": 1.51,
+          "turn_texts": 700,
+          "words": 34704
+        },
+        "hin_Latn": {
+          "records": 376,
+          "tokens": 79303,
+          "tokens_per_word": 2.132,
+          "turn_texts": 752,
+          "words": 37196
+        },
+        "kan_Knda": {
+          "records": 331,
+          "tokens": 63374,
+          "tokens_per_word": 3.2799,
+          "turn_texts": 662,
+          "words": 19322
+        },
+        "kan_Latn": {
+          "records": 339,
+          "tokens": 71100,
+          "tokens_per_word": 3.6277,
+          "turn_texts": 678,
+          "words": 19599
+        },
+        "mal_Latn": {
+          "records": 330,
+          "tokens": 76766,
+          "tokens_per_word": 4.3794,
+          "turn_texts": 660,
+          "words": 17529
+        },
+        "mal_Mlym": {
+          "records": 359,
+          "tokens": 71412,
+          "tokens_per_word": 3.6904,
+          "turn_texts": 718,
+          "words": 19351
+        },
+        "mar_Deva": {
+          "records": 351,
+          "tokens": 61545,
+          "tokens_per_word": 2.4238,
+          "turn_texts": 702,
+          "words": 25392
+        },
+        "mar_Latn": {
+          "records": 349,
+          "tokens": 69964,
+          "tokens_per_word": 2.6839,
+          "turn_texts": 698,
+          "words": 26068
+        },
+        "npi_Deva": {
+          "records": 354,
+          "tokens": 57449,
+          "tokens_per_word": 2.1528,
+          "turn_texts": 708,
+          "words": 26686
+        },
+        "npi_Latn": {
+          "records": 408,
+          "tokens": 77719,
+          "tokens_per_word": 2.6009,
+          "turn_texts": 816,
+          "words": 29882
+        },
+        "ory_Latn": {
+          "records": 344,
+          "tokens": 67584,
+          "tokens_per_word": 2.5643,
+          "turn_texts": 688,
+          "words": 26356
+        },
+        "ory_Orya": {
+          "records": 354,
+          "tokens": 115156,
+          "tokens_per_word": 4.2285,
+          "turn_texts": 708,
+          "words": 27233
+        },
+        "pan_Guru": {
+          "records": 369,
+          "tokens": 97481,
+          "tokens_per_word": 2.5696,
+          "turn_texts": 738,
+          "words": 37936
+        },
+        "pan_Latn": {
+          "records": 368,
+          "tokens": 77634,
+          "tokens_per_word": 2.1213,
+          "turn_texts": 736,
+          "words": 36598
+        },
+        "san_Deva": {
+          "records": 364,
+          "tokens": 82430,
+          "tokens_per_word": 3.664,
+          "turn_texts": 728,
+          "words": 22497
+        },
+        "san_Latn": {
+          "records": 289,
+          "tokens": 59644,
+          "tokens_per_word": 3.3304,
+          "turn_texts": 578,
+          "words": 17909
+        },
+        "tam_Latn": {
+          "records": 361,
+          "tokens": 87966,
+          "tokens_per_word": 3.9461,
+          "turn_texts": 722,
+          "words": 22292
+        },
+        "tam_Taml": {
+          "records": 348,
+          "tokens": 67264,
+          "tokens_per_word": 3.0777,
+          "turn_texts": 696,
+          "words": 21855
+        },
+        "tel_Latn": {
+          "records": 352,
+          "tokens": 71817,
+          "tokens_per_word": 3.3059,
+          "turn_texts": 704,
+          "words": 21724
+        },
+        "tel_Telu": {
+          "records": 356,
+          "tokens": 66572,
+          "tokens_per_word": 3.1344,
+          "turn_texts": 712,
+          "words": 21239
+        },
+        "urd_Arab": {
+          "records": 377,
+          "tokens": 295078,
+          "tokens_per_word": 7.2781,
+          "turn_texts": 754,
+          "words": 40543
+        },
+        "urd_Latn": {
+          "records": 343,
+          "tokens": 71594,
+          "tokens_per_word": 1.9373,
+          "turn_texts": 686,
+          "words": 36956
+        }
+      },
+      "status": "RUN",
+      "totals": {
+        "records": 9871,
+        "tokens": 2202503,
+        "tokens_per_word": 2.9108,
+        "turn_texts": 19742,
+        "words": 756661
+      }
+    },
+    "Indic_ShareLlama": {
+      "per_language": {
+        "asm_Beng": {
+          "records": 363,
+          "tokens": 324871,
+          "tokens_per_word": 2.676,
+          "turn_texts": 726,
+          "words": 121402
+        },
+        "asm_Latn": {
+          "records": 352,
+          "tokens": 309603,
+          "tokens_per_word": 2.7218,
+          "turn_texts": 704,
+          "words": 113748
+        },
+        "ben_Beng": {
+          "records": 360,
+          "tokens": 250334,
+          "tokens_per_word": 2.3177,
+          "turn_texts": 720,
+          "words": 108011
+        },
+        "ben_Latn": {
+          "records": 340,
+          "tokens": 280823,
+          "tokens_per_word": 2.5651,
+          "turn_texts": 680,
+          "words": 109477
+        },
+        "eng_Latn": {
+          "records": 383,
+          "tokens": 163299,
+          "tokens_per_word": 1.2641,
+          "turn_texts": 766,
+          "words": 129183
+        },
+        "guj_Gujr": {
+          "records": 363,
+          "tokens": 273729,
+          "tokens_per_word": 2.2623,
+          "turn_texts": 726,
+          "words": 120995
+        },
+        "hin_Deva": {
+          "records": 387,
+          "tokens": 251612,
+          "tokens_per_word": 1.6328,
+          "turn_texts": 774,
+          "words": 154097
+        },
+        "hin_Latn": {
+          "records": 355,
+          "tokens": 310709,
+          "tokens_per_word": 2.14,
+          "turn_texts": 710,
+          "words": 145193
+        },
+        "kan_Knda": {
+          "records": 366,
+          "tokens": 307003,
+          "tokens_per_word": 3.2226,
+          "turn_texts": 732,
+          "words": 95266
+        },
+        "kan_Latn": {
+          "records": 330,
+          "tokens": 297373,
+          "tokens_per_word": 3.3376,
+          "turn_texts": 660,
+          "words": 89097
+        },
+        "mal_Latn": {
+          "records": 344,
+          "tokens": 335297,
+          "tokens_per_word": 3.7494,
+          "turn_texts": 688,
+          "words": 89428
+        },
+        "mal_Mlym": {
+          "records": 327,
+          "tokens": 291137,
+          "tokens_per_word": 3.4086,
+          "turn_texts": 654,
+          "words": 85413
+        },
+        "mar_Deva": {
+          "records": 345,
+          "tokens": 265148,
+          "tokens_per_word": 2.4375,
+          "turn_texts": 690,
+          "words": 108777
+        },
+        "mar_Latn": {
+          "records": 355,
+          "tokens": 312996,
+          "tokens_per_word": 2.7408,
+          "turn_texts": 710,
+          "words": 114200
+        },
+        "npi_Deva": {
+          "records": 350,
+          "tokens": 248547,
+          "tokens_per_word": 2.2926,
+          "turn_texts": 700,
+          "words": 108411
+        },
+        "npi_Latn": {
+          "records": 376,
+          "tokens": 283212,
+          "tokens_per_word": 2.6165,
+          "turn_texts": 752,
+          "words": 108242
+        },
+        "ory_Latn": {
+          "records": 326,
+          "tokens": 280064,
+          "tokens_per_word": 2.6303,
+          "turn_texts": 652,
+          "words": 106477
+        },
+        "ory_Orya": {
+          "records": 322,
+          "tokens": 450352,
+          "tokens_per_word": 4.26,
+          "turn_texts": 644,
+          "words": 105716
+        },
+        "pan_Guru": {
+          "records": 371,
+          "tokens": 383920,
+          "tokens_per_word": 2.673,
+          "turn_texts": 742,
+          "words": 143630
+        },
+        "pan_Latn": {
+          "records": 391,
+          "tokens": 333786,
+          "tokens_per_word": 2.1405,
+          "turn_texts": 782,
+          "words": 155936
+        },
+        "san_Deva": {
+          "records": 366,
+          "tokens": 360962,
+          "tokens_per_word": 3.8581,
+          "turn_texts": 732,
+          "words": 93560
+        },
+        "san_Latn": {
+          "records": 369,
+          "tokens": 323827,
+          "tokens_per_word": 3.5264,
+          "turn_texts": 738,
+          "words": 91830
+        },
+        "tam_Latn": {
+          "records": 332,
+          "tokens": 334479,
+          "tokens_per_word": 3.6636,
+          "turn_texts": 664,
+          "words": 91297
+        },
+        "tam_Taml": {
+          "records": 394,
+          "tokens": 327523,
+          "tokens_per_word": 3.1379,
+          "turn_texts": 788,
+          "words": 104376
+        },
+        "tel_Latn": {
+          "records": 351,
+          "tokens": 266888,
+          "tokens_per_word": 3.0653,
+          "turn_texts": 702,
+          "words": 87067
+        },
+        "tel_Telu": {
+          "records": 357,
+          "tokens": 320365,
+          "tokens_per_word": 3.132,
+          "turn_texts": 714,
+          "words": 102288
+        },
+        "urd_Arab": {
+          "records": 350,
+          "tokens": 1066700,
+          "tokens_per_word": 7.3407,
+          "turn_texts": 700,
+          "words": 145313
+        },
+        "urd_Latn": {
+          "records": 348,
+          "tokens": 281610,
+          "tokens_per_word": 1.976,
+          "turn_texts": 696,
+          "words": 142516
+        }
+      },
+      "status": "RUN",
+      "totals": {
+        "records": 9973,
+        "tokens": 9236169,
+        "tokens_per_word": 2.9127,
+        "turn_texts": 19946,
+        "words": 3170946
+      }
+    },
+    "IndoWordNet_1M": {
+      "per_language": {
+        "hi": {
+          "records": 772611,
+          "tokens": 54066728,
+          "tokens_per_word": 1.945,
+          "turn_texts": 1545222,
+          "words": 27798195
+        }
+      },
+      "status": "RUN",
+      "totals": {
+        "records": 772611,
+        "tokens": 54066728,
+        "tokens_per_word": 1.945,
+        "turn_texts": 1545222,
+        "words": 27798195
+      }
+    },
+    "WikiHow": {
+      "per_language": {
+        "asm_Beng": {
+          "records": 318,
+          "tokens": 584455,
+          "tokens_per_word": 2.5158,
+          "turn_texts": 636,
+          "words": 232314
+        },
+        "asm_Latn": {
+          "records": 381,
+          "tokens": 671588,
+          "tokens_per_word": 2.5598,
+          "turn_texts": 762,
+          "words": 262359
+        },
+        "ben_Beng": {
+          "records": 369,
+          "tokens": 523241,
+          "tokens_per_word": 2.1316,
+          "turn_texts": 740,
+          "words": 245467
+        },
+        "ben_Latn": {
+          "records": 329,
+          "tokens": 543013,
+          "tokens_per_word": 2.3291,
+          "turn_texts": 662,
+          "words": 233143
+        },
+        "eng_Latn": {
+          "records": 329,
+          "tokens": 309100,
+          "tokens_per_word": 1.223,
+          "turn_texts": 658,
+          "words": 252731
+        },
+        "guj_Gujr": {
+          "records": 336,
+          "tokens": 504922,
+          "tokens_per_word": 2.1104,
+          "turn_texts": 680,
+          "words": 239251
+        },
+        "hin_Deva": {
+          "records": 336,
+          "tokens": 477284,
+          "tokens_per_word": 1.556,
+          "turn_texts": 672,
+          "words": 306733
+        },
+        "hin_Latn": {
+          "records": 381,
+          "tokens": 752676,
+          "tokens_per_word": 2.0165,
+          "turn_texts": 768,
+          "words": 373251
+        },
+        "kan_Knda": {
+          "records": 352,
+          "tokens": 590480,
+          "tokens_per_word": 3.0687,
+          "turn_texts": 704,
+          "words": 192423
+        },
+        "kan_Latn": {
+          "records": 362,
+          "tokens": 630462,
+          "tokens_per_word": 3.1734,
+          "turn_texts": 724,
+          "words": 198673
+        },
+        "mal_Latn": {
+          "records": 342,
+          "tokens": 647883,
+          "tokens_per_word": 3.5431,
+          "turn_texts": 686,
+          "words": 182859
+        },
+        "mal_Mlym": {
+          "records": 341,
+          "tokens": 557386,
+          "tokens_per_word": 3.198,
+          "turn_texts": 692,
+          "words": 174294
+        },
+        "mar_Deva": {
+          "records": 362,
+          "tokens": 570125,
+          "tokens_per_word": 2.4934,
+          "turn_texts": 726,
+          "words": 228657
+        },
+        "mar_Latn": {
+          "records": 349,
+          "tokens": 596489,
+          "tokens_per_word": 2.5985,
+          "turn_texts": 698,
+          "words": 229550
+        },
+        "npi_Deva": {
+          "records": 357,
+          "tokens": 558344,
+          "tokens_per_word": 2.3906,
+          "turn_texts": 724,
+          "words": 233561
+        },
+        "npi_Latn": {
+          "records": 385,
+          "tokens": 644866,
+          "tokens_per_word": 2.6324,
+          "turn_texts": 774,
+          "words": 244973
+        },
+        "ory_Latn": {
+          "records": 357,
+          "tokens": 615301,
+          "tokens_per_word": 2.4462,
+          "turn_texts": 714,
+          "words": 251531
+        },
+        "ory_Orya": {
+          "records": 352,
+          "tokens": 964440,
+          "tokens_per_word": 3.9846,
+          "turn_texts": 710,
+          "words": 242039
+        },
+        "pan_Guru": {
+          "records": 367,
+          "tokens": 798533,
+          "tokens_per_word": 2.4465,
+          "turn_texts": 742,
+          "words": 326400
+        },
+        "pan_Latn": {
+          "records": 358,
+          "tokens": 620593,
+          "tokens_per_word": 2.0158,
+          "turn_texts": 716,
+          "words": 307864
+        },
+        "san_Deva": {
+          "records": 386,
+          "tokens": 832681,
+          "tokens_per_word": 3.6462,
+          "turn_texts": 780,
+          "words": 228372
+        },
+        "san_Latn": {
+          "records": 357,
+          "tokens": 640820,
+          "tokens_per_word": 3.244,
+          "turn_texts": 726,
+          "words": 197542
+        },
+        "tam_Latn": {
+          "records": 348,
+          "tokens": 669803,
+          "tokens_per_word": 3.5121,
+          "turn_texts": 698,
+          "words": 190715
+        },
+        "tam_Taml": {
+          "records": 362,
+          "tokens": 611464,
+          "tokens_per_word": 2.9193,
+          "turn_texts": 726,
+          "words": 209456
+        },
+        "tel_Latn": {
+          "records": 396,
+          "tokens": 665610,
+          "tokens_per_word": 2.9421,
+          "turn_texts": 794,
+          "words": 226240
+        },
+        "tel_Telu": {
+          "records": 376,
+          "tokens": 659669,
+          "tokens_per_word": 2.9957,
+          "turn_texts": 754,
+          "words": 220205
+        },
+        "urd_Arab": {
+          "records": 345,
+          "tokens": 2216734,
+          "tokens_per_word": 6.9834,
+          "turn_texts": 690,
+          "words": 317430
+        },
+        "urd_Latn": {
+          "records": 348,
+          "tokens": 617758,
+          "tokens_per_word": 1.9386,
+          "turn_texts": 696,
+          "words": 318664
+        }
+      },
+      "status": "RUN",
+      "totals": {
+        "records": 9981,
+        "tokens": 19075720,
+        "tokens_per_word": 2.778,
+        "turn_texts": 20052,
+        "words": 6866697
+      }
+    },
+    "Wiki_Conv": {
+      "per_language": {
+        "asm_Beng": {
+          "records": 352,
+          "tokens": 17937,
+          "tokens_per_word": 2.8221,
+          "turn_texts": 704,
+          "words": 6356
+        },
+        "asm_Latn": {
+          "records": 368,
+          "tokens": 17070,
+          "tokens_per_word": 2.6531,
+          "turn_texts": 736,
+          "words": 6434
+        },
+        "ben_Beng": {
+          "records": 331,
+          "tokens": 13822,
+          "tokens_per_word": 2.6099,
+          "turn_texts": 662,
+          "words": 5296
+        },
+        "ben_Latn": {
+          "records": 360,
+          "tokens": 16182,
+          "tokens_per_word": 2.68,
+          "turn_texts": 720,
+          "words": 6038
+        },
+        "eng_Latn": {
+          "records": 343,
+          "tokens": 10708,
+          "tokens_per_word": 1.4926,
+          "turn_texts": 686,
+          "words": 7174
+        },
+        "guj_Gujr": {
+          "records": 338,
+          "tokens": 16135,
+          "tokens_per_word": 2.4417,
+          "turn_texts": 676,
+          "words": 6608
+        },
+        "guj_Latn": {
+          "records": 336,
+          "tokens": 15082,
+          "tokens_per_word": 2.5233,
+          "turn_texts": 672,
+          "words": 5977
+        },
+        "hin_Deva": {
+          "records": 325,
+          "tokens": 12526,
+          "tokens_per_word": 1.831,
+          "turn_texts": 650,
+          "words": 6841
+        },
+        "hin_Latn": {
+          "records": 374,
+          "tokens": 17985,
+          "tokens_per_word": 2.1327,
+          "turn_texts": 748,
+          "words": 8433
+        },
+        "kan_Knda": {
+          "records": 337,
+          "tokens": 15595,
+          "tokens_per_word": 3.2742,
+          "turn_texts": 674,
+          "words": 4763
+        },
+        "kan_Latn": {
+          "records": 358,
+          "tokens": 17398,
+          "tokens_per_word": 3.1935,
+          "turn_texts": 716,
+          "words": 5448
+        },
+        "mal_Latn": {
+          "records": 352,
+          "tokens": 16980,
+          "tokens_per_word": 3.4498,
+          "turn_texts": 704,
+          "words": 4922
+        },
+        "mal_Mlym": {
+          "records": 340,
+          "tokens": 16798,
+          "tokens_per_word": 3.4087,
+          "turn_texts": 680,
+          "words": 4928
+        },
+        "mar_Deva": {
+          "records": 302,
+          "tokens": 12878,
+          "tokens_per_word": 2.505,
+          "turn_texts": 604,
+          "words": 5141
+        },
+        "mar_Latn": {
+          "records": 350,
+          "tokens": 17068,
+          "tokens_per_word": 2.7418,
+          "turn_texts": 700,
+          "words": 6225
+        },
+        "npi_Deva": {
+          "records": 320,
+          "tokens": 12475,
+          "tokens_per_word": 2.3331,
+          "turn_texts": 640,
+          "words": 5347
+        },
+        "npi_Latn": {
+          "records": 363,
+          "tokens": 16579,
+          "tokens_per_word": 2.5315,
+          "turn_texts": 726,
+          "words": 6549
+        },
+        "ory_Latn": {
+          "records": 330,
+          "tokens": 15123,
+          "tokens_per_word": 2.6667,
+          "turn_texts": 660,
+          "words": 5671
+        },
+        "ory_Orya": {
+          "records": 329,
+          "tokens": 24852,
+          "tokens_per_word": 4.2819,
+          "turn_texts": 658,
+          "words": 5804
+        },
+        "pan_Guru": {
+          "records": 361,
+          "tokens": 20351,
+          "tokens_per_word": 2.749,
+          "turn_texts": 722,
+          "words": 7403
+        },
+        "pan_Latn": {
+          "records": 337,
+          "tokens": 15101,
+          "tokens_per_word": 2.1536,
+          "turn_texts": 674,
+          "words": 7012
+        },
+        "san_Deva": {
+          "records": 320,
+          "tokens": 18867,
+          "tokens_per_word": 4.1502,
+          "turn_texts": 640,
+          "words": 4546
+        },
+        "san_Latn": {
+          "records": 329,
+          "tokens": 16589,
+          "tokens_per_word": 3.4353,
+          "turn_texts": 658,
+          "words": 4829
+        },
+        "tam_Latn": {
+          "records": 353,
+          "tokens": 18066,
+          "tokens_per_word": 3.3882,
+          "turn_texts": 706,
+          "words": 5332
+        },
+        "tam_Taml": {
+          "records": 374,
+          "tokens": 18062,
+          "tokens_per_word": 3.2031,
+          "turn_texts": 748,
+          "words": 5639
+        },
+        "tel_Latn": {
+          "records": 337,
+          "tokens": 15079,
+          "tokens_per_word": 2.9149,
+          "turn_texts": 674,
+          "words": 5173
+        },
+        "tel_Telu": {
+          "records": 324,
+          "tokens": 16207,
+          "tokens_per_word": 3.1866,
+          "turn_texts": 648,
+          "words": 5086
+        },
+        "urd_Arab": {
+          "records": 323,
+          "tokens": 54510,
+          "tokens_per_word": 7.7122,
+          "turn_texts": 646,
+          "words": 7068
+        },
+        "urd_Latn": {
+          "records": 364,
+          "tokens": 16596,
+          "tokens_per_word": 1.9596,
+          "turn_texts": 728,
+          "words": 8469
+        }
+      },
+      "status": "RUN",
+      "totals": {
+        "records": 9930,
+        "tokens": 512621,
+        "tokens_per_word": 2.9375,
+        "turn_texts": 19860,
+        "words": 174512
+      }
+    }
+  },
+  "method": "All strings in each retained record's interactions are encoded without special tokens and summed. words = whitespace-separated segments (crude but deterministic); fertility = tokens/words. Read-only: no pipeline output is modified.",
+  "stage": "named_tokenizer_estimate",
+  "status": "RUN",
+  "tokenizer": {
+    "repo": "theschoolofai/BrahmicTokenizer-131K",
+    "revision": "93df154cbc9dbf038a222c010d9b43906a8a72c3",
+    "vocab_size": 131072
+  }
+}

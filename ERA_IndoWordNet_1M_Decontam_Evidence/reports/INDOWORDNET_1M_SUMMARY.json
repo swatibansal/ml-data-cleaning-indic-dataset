@@ -1,0 +1,134 @@
+{
+  "benchmark_decontamination": {
+    "blocker": null,
+    "granularity": "whole_conversation",
+    "installed_benchmarks": [
+      "GSM8K",
+      "IndicGenBench",
+      "IndicMMLU-Pro",
+      "MATH",
+      "MILU"
+    ],
+    "note_per_benchmark_may_exceed_units": "per-benchmark tallies count a unit once per matched benchmark; a unit matching several benchmarks contributes to each, so per-benchmark sums may exceed the distinct tier*_*_units totals above",
+    "policy": "two-tier v1 (2026-07-25): canary OR >= 3 distinct word 8-grams => benchmark_holdout; 1..2 word 8-grams => retain + candidate annotation (report counts only)",
+    "registry_dir": "/Users/bansalswati/ERA-phase1/benchmark_registry",
+    "registry_format_version": "1",
+    "status": "RUN",
+    "tier1_holdout_units": 202227,
+    "tier1_units_by_benchmark": {
+      "IndicMMLU-Pro": 202227,
+      "MILU": 2352
+    },
+    "tier2_candidate_units": 60014,
+    "tier2_units_by_benchmark": {
+      "IndicMMLU-Pro": 60014,
+      "MILU": 21155
+    }
+  },
+  "chunk_size": 100000,
+  "chunks": 10,
+  "completed_utc": "2026-07-26T04:58:40.534679+00:00",
+  "database_records": 991308,
+  "dispositions": {
+    "benchmark_holdout": 202227,
+    "exact_duplicate_holdout": 8692,
+    "near_duplicate_holdout": 16470,
+    "retained": 772611
+  },
+  "elapsed_seconds": 2246.39,
+  "holdouts": 227389,
+  "materialized_units": 1000000,
+  "per_chunk_hashes": [
+    {
+      "candidates_sha256": "2ec2ae0b9ca2cd507f10a254ee953cf07d7a5a0385a661b01bdb3bedf5c17dae",
+      "chunk_no": 0,
+      "holdout_sha256": "3e29cb05d256614da01a7d175b66eee9043452cc235a1a08d5c384b841a7e038",
+      "retained_sha256": "6635c7df7de2febc1ea2c70fb26d04ffff89e1b94f9ec7cde4b1ccdc2b416b79",
+      "source_sha256": "2aad12e9ef782daff12a1d56a913df8f762f90748754a3cb8e12f2ba480f8090"
+    },
+    {
+      "candidates_sha256": "93934b2107a66f41ae391dbf3d20b052c6f23972eeb6f079ec882757b741c140",
+      "chunk_no": 1,
+      "holdout_sha256": "51537f354236de2a049e80fd96b4be63e1cd87a0f7f56ac5e76c5d4073d09459",
+      "retained_sha256": "478b1e8e84737f3868b430731698e6cb66fb545a125e0cf4af205c8ac810a718",
+      "source_sha256": "566c81bcb8d5e265a633d4d08e28ea23662a8824ac7c10e4d3b04cb95d22f80a"
+    },
+    {
+      "candidates_sha256": "e1641dea827ee06c7aa87b29fa5b5fae3175f6d4f8445fcdf4d5879055345770",
+      "chunk_no": 2,
+      "holdout_sha256": "056b9ca46600a61de8f54cca81d367701f339c6f1906034de399124fa83ae5c1",
+      "retained_sha256": "2c8f3f1b391394feef08a57ea1023d05b03cfdff827e8a0ac5d2cf547cf54b24",
+      "source_sha256": "e516b39ad0ad077acc72bae512ccc237295534539bd28d5574b5f51edf209a53"
+    },
+    {
+      "candidates_sha256": "166916c0f315911f5e9e2fd31352b8974aa908c9d89e8eaa7e36753b9315681c",
+      "chunk_no": 3,
+      "holdout_sha256": "19184d8b95fff00856dee12dd6d5ea702e28cde93c0c5b70d1749c5dbcc84829",
+      "retained_sha256": "3c432df68be6ed8ef71968a9052239b344344904a3fa8f91447605f833e21851",
+      "source_sha256": "3248cca7d0d415ba90405cc21da36014892b1968e22fbd43e43359c42d17844b"
+    },
+    {
+      "candidates_sha256": "2b977eeb402737ce630351164a0a0350b4c06d89a6a9868090da17899226e067",
+      "chunk_no": 4,
+      "holdout_sha256": "3ab6de77a7969cfb115cb43b3573a07d9f933019f63465717c2ed8be847d89e6",
+      "retained_sha256": "63104d05fcf225b27730bd6af57b884973e7c48d52d4c179033e24bee3ae36c3",
+      "source_sha256": "ec100b6b1b7bd14bd2f528ec4f9116729cec7aaa6845c8bfc8587967372640b7"
+    },
+    {
+      "candidates_sha256": "107c283d5a84b71deeb08e36432bdc4b2f3fc885f51277191171768fabdb7ff0",
+      "chunk_no": 5,
+      "holdout_sha256": "efff85ac8168c3140b465e4a908dff47c11cbceb0d342a0cd88fa68393e9fef2",
+      "retained_sha256": "9d35e294792acd55650167062d0fbd4a94e0e991fe245f0edbbb8d4a683f4a33",
+      "source_sha256": "31d0715d12bffd2e7a7908e24041615ad2fc90c722067b594197e503a9dc46ab"
+    },
+    {
+      "candidates_sha256": "d8fd6d5506f969e2aa01e774a49389d5a524a48da1c190368f095f3d6ebb5378",
+      "chunk_no": 6,
+      "holdout_sha256": "b0896e28cd30b7547cc93c532ac824f1711be3c74d991319aa5aded964011e0b",
+      "retained_sha256": "b1527d4894f47d9a42e08a06bbea0fa8d5dd669a5cacbb8f231e803f39915768",
+      "source_sha256": "d5e07a52c3566818f826184fd85555d0db7a15ba8c1cc48db1fa8d112cde0b5e"
+    },
+    {
+      "candidates_sha256": "b88c3ed4c809c6bb05049e4b2a8bc85f2ebf5b3d6945e149770dc820dc8b6dca",
+      "chunk_no": 7,
+      "holdout_sha256": "5ed34d829046ac241c0b67b751cafaf0441fe4029943403ca4dabf548ab133d9",
+      "retained_sha256": "4da8bd1be2cd1746922ccad2bb3df7a6f8722c4f219243ee0065982931ea266f",
+      "source_sha256": "0566d08270615b38e136477513d03107307182767966206734f72fb139d6277c"
+    },
+    {
+      "candidates_sha256": "0250d520680fce174dc1050414108670fd0b6d65c45c9b3ddfe7dd5ee611971b",
+      "chunk_no": 8,
+      "holdout_sha256": "0ff060f0c817a52eaae64dd7380d12f402b9ee378a37fbbf1bc9a2d5e063824a",
+      "retained_sha256": "03eddf339a9904aefa5583051cfdbf63e5bcc1c3c54aaffcaf68c3b9c9c18066",
+      "source_sha256": "4f93ce86551813d3e32dad84d18f597ee743daa5ce4ec6a76b4f6955c83aedfb"
+    },
+    {
+      "candidates_sha256": "a35f41ad9f4b39361635f6fe397550b773f365c9e9b1cbd8934ded6ae3fe7803",
+      "chunk_no": 9,
+      "holdout_sha256": "1b22da1c3895481d0a92cecda92d80c0fcb74b11417246a3bbff5e80829a778e",
+      "retained_sha256": "d7fca12cab50bd45dd2ace24ef99b95827d0c629a38fae4c973febcbc4a58b49",
+      "source_sha256": "fc37e959f83c9a364cc3fbab98babd1af6290b5b77ca42550c9b956bc1867605"
+    }
+  ],
+  "policy": "ERA-IndoWordNet-policy-v2.1",
+  "reconciliation_difference": 0,
+  "release_blockers": [],
+  "retained_units": 772611,
+  "rows_per_second": 445.16,
+  "source_rows": 1000000,
+  "status": "PASSED",
+  "strategy_status": {
+    "benchmark_decontamination": "RUN",
+    "checkpoint_restart": "RUN",
+    "exact_deduplication_global": "RUN",
+    "human_language_review": "NOT RUN",
+    "language_metadata_validation": "RUN",
+    "near_deduplication_global": "RUN",
+    "privacy_and_secrets": "RUN",
+    "quality_repetition_gate": "RUN",
+    "semantic_lexical_correctness": "NOT APPLICABLE",
+    "source_integrity": "RUN",
+    "structural_validation": "RUN",
+    "unicode_normalization": "RUN"
+  }
+}

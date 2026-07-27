@@ -1,0 +1,53 @@
+{
+  "benchmark_decontamination": {
+    "status": "RUN",
+    "tier1_holdout_units_by_benchmark": {
+      "IndicMMLU-Pro": 18813,
+      "MILU": 293
+    },
+    "tier2_candidate_units_by_benchmark": {
+      "IndicMMLU-Pro": 5874,
+      "MILU": 2635
+    }
+  },
+  "chunk_no": 2,
+  "completed_utc": "2026-07-26T04:27:46.260986+00:00",
+  "dispositions": {
+    "benchmark_holdout": 18813,
+    "exact_duplicate_holdout": 661,
+    "near_duplicate_holdout": 1004,
+    "retained": 79522
+  },
+  "elapsed_seconds": 170.52,
+  "end_index_exclusive": 300000,
+  "holdouts": 20478,
+  "languages": {
+    "hi": 100000
+  },
+  "normalization_and_annotations": {
+    "benchmark_tier1": 18813,
+    "benchmark_tier2": 5874,
+    "near_duplicate_candidate": 3128,
+    "normalization_changed": 7619
+  },
+  "outputs": {
+    "candidates": {
+      "path": "chunk-00002.candidates.jsonl.gz",
+      "sha256": "e1641dea827ee06c7aa87b29fa5b5fae3175f6d4f8445fcdf4d5879055345770"
+    },
+    "holdouts": {
+      "path": "chunk-00002.holdouts.jsonl.gz",
+      "sha256": "056b9ca46600a61de8f54cca81d367701f339c6f1906034de399124fa83ae5c1"
+    },
+    "retained": {
+      "path": "chunk-00002.retained.jsonl.gz",
+      "sha256": "2c8f3f1b391394feef08a57ea1023d05b03cfdff827e8a0ac5d2cf547cf54b24"
+    }
+  },
+  "peak_rss_mib": 3664.16,
+  "retained": 79522,
+  "rows_per_second": 586.44,
+  "source_rows": 100000,
+  "source_sha256": "e516b39ad0ad077acc72bae512ccc237295534539bd28d5574b5f51edf209a53",
+  "start_index": 200000
+}

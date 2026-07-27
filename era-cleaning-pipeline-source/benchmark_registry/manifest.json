@@ -1,0 +1,273 @@
+{
+  "benchmarks": [
+    {
+      "counts": {
+        "canaries": 50,
+        "capped": false,
+        "char_grams": 2140701,
+        "items_processed": 79608,
+        "translit_char_grams": 416154,
+        "translit_word_grams": 366183,
+        "used_configs": [
+          "Bengali",
+          "English",
+          "Gujarati",
+          "Hindi",
+          "Kannada",
+          "Malayalam",
+          "Marathi",
+          "Odia",
+          "Punjabi",
+          "Tamil",
+          "Telugu"
+        ],
+        "word_grams": 1078024
+      },
+      "id": "MILU",
+      "item_cap": 250000,
+      "note": "ai4bharat/MILU — Indic multitask language understanding.",
+      "repo": "ai4bharat/MILU",
+      "revision": "946c423e72cd2657674a7a65d739e212e9a5f876",
+      "shard": "shards/MILU.json",
+      "shard_sha256": "825e89ede1a6cda27662420b8fd131fd39ff4f6601f984cf8fa9ff84467ef8e5",
+      "split": "test",
+      "status": "INSTALLED",
+      "text_fields": [
+        "question",
+        "option1",
+        "option2",
+        "option3",
+        "option4",
+        "target",
+        "answer"
+      ]
+    },
+    {
+      "counts": {
+        "canaries": 50,
+        "capped": false,
+        "char_grams": 5038979,
+        "items_processed": 108288,
+        "translit_char_grams": 496514,
+        "translit_word_grams": 1349055,
+        "used_configs": [
+          "bengali",
+          "gujarati",
+          "hindi",
+          "kannada",
+          "marathi",
+          "punjabi",
+          "tamil",
+          "telugu",
+          "urdu"
+        ],
+        "word_grams": 5664134
+      },
+      "id": "IndicMMLU-Pro",
+      "item_cap": 250000,
+      "note": "IndicMMLU-Pro — try LinguaLift/IndicMMLU-Pro.",
+      "repo": "LinguaLift/IndicMMLU-Pro",
+      "revision": "9cadffd98bb7e2853736949593bd54a6d96e4f13",
+      "shard": "shards/IndicMMLU-Pro.json",
+      "shard_sha256": "1ad9f3d1e56b25418e33ae26c95d932c400823cde4f4a2ba4f5a7bade2466d89",
+      "split": "test",
+      "status": "INSTALLED",
+      "text_fields": [
+        "question",
+        "options",
+        "answer",
+        "answer_text"
+      ]
+    },
+    {
+      "counts": {
+        "canaries": 50,
+        "capped": false,
+        "char_grams": 0,
+        "items_processed": 1319,
+        "translit_char_grams": 0,
+        "translit_word_grams": 0,
+        "used_configs": [
+          "main"
+        ],
+        "word_grams": 111537
+      },
+      "id": "GSM8K",
+      "item_cap": 250000,
+      "note": "openai/gsm8k — grade-school math, main config, test split.",
+      "repo": "openai/gsm8k",
+      "revision": "740312add88f781978c0658806c59bc2815b9866",
+      "shard": "shards/GSM8K.json",
+      "shard_sha256": "0c495ab5ccc4cbcc85d646ba646ae320a67d4f2f7fbcba8a8d7fe4b20796c9a3",
+      "split": "test",
+      "status": "INSTALLED",
+      "text_fields": [
+        "question",
+        "answer"
+      ]
+    },
+    {
+      "counts": {
+        "canaries": 50,
+        "capped": false,
+        "char_grams": 0,
+        "items_processed": 5000,
+        "translit_char_grams": 0,
+        "translit_word_grams": 0,
+        "used_configs": [
+          "algebra",
+          "counting_and_probability",
+          "geometry",
+          "intermediate_algebra",
+          "number_theory",
+          "prealgebra",
+          "precalculus"
+        ],
+        "word_grams": 484740
+      },
+      "id": "MATH",
+      "item_cap": 250000,
+      "note": "Hendrycks MATH competition set (test split).",
+      "repo": "EleutherAI/hendrycks_math",
+      "revision": "21a5633873b6a120296cce3e2df9d5550074f4a3",
+      "shard": "shards/MATH.json",
+      "shard_sha256": "9d5af104bc4b5bff7e8648557aa2349062a42886176b5f462e60c83af686ad7c",
+      "split": "test",
+      "status": "INSTALLED",
+      "text_fields": [
+        "problem",
+        "solution",
+        "question",
+        "answer"
+      ]
+    },
+    {
+      "counts": {
+        "canaries": 50,
+        "capped": false,
+        "char_grams": 1117350,
+        "items_processed": 58696,
+        "translit_char_grams": 252065,
+        "translit_word_grams": 245332,
+        "used_configs": [
+          "flores_as_en_test.json",
+          "flores_awa_en_test.json",
+          "flores_bgc_en_test.json",
+          "flores_bho_en_test.json",
+          "flores_bn_en_test.json",
+          "flores_bo_en_test.json",
+          "flores_brx_en_test.json",
+          "flores_en_as_test.json",
+          "flores_en_awa_test.json",
+          "flores_en_bgc_test.json",
+          "flores_en_bho_test.json",
+          "flores_en_bn_test.json",
+          "flores_en_bo_test.json",
+          "flores_en_brx_test.json",
+          "flores_en_gbm_test.json",
+          "flores_en_gom_test.json",
+          "flores_en_gu_test.json",
+          "flores_en_hi_test.json",
+          "flores_en_hne_test.json",
+          "flores_en_hoj_test.json",
+          "flores_en_kn_test.json",
+          "flores_en_mai_test.json",
+          "flores_en_ml_test.json",
+          "flores_en_mni_test.json",
+          "flores_en_mr_test.json",
+          "flores_en_mup_test.json",
+          "flores_en_mwr_test.json",
+          "flores_en_ne_test.json",
+          "flores_en_or_test.json",
+          "flores_en_pa_test.json",
+          "flores_en_ps_test.json",
+          "flores_en_sa_test.json",
+          "flores_en_sat_test.json",
+          "flores_en_ta_test.json",
+          "flores_en_te_test.json",
+          "flores_en_ur_test.json",
+          "flores_gbm_en_test.json",
+          "flores_gom_en_test.json",
+          "flores_gu_en_test.json",
+          "flores_hi_en_test.json",
+          "flores_hne_en_test.json",
+          "flores_hoj_en_test.json",
+          "flores_kn_en_test.json",
+          "flores_mai_en_test.json",
+          "flores_ml_en_test.json",
+          "flores_mni_en_test.json",
+          "flores_mr_en_test.json",
+          "flores_mup_en_test.json",
+          "flores_mwr_en_test.json",
+          "flores_ne_en_test.json",
+          "flores_or_en_test.json",
+          "flores_pa_en_test.json",
+          "flores_ps_en_test.json",
+          "flores_sa_en_test.json",
+          "flores_sat_en_test.json",
+          "flores_ta_en_test.json",
+          "flores_te_en_test.json",
+          "flores_ur_en_test.json"
+        ],
+        "word_grams": 427564
+      },
+      "id": "IndicGenBench",
+      "item_cap": 250000,
+      "note": "google/IndicGenBench is a collection of custom-JSON repos (each file has an embedded canary GUID + an 'examples' list). Loaded via a dedicated raw-JSON path, not datasets.load_dataset.",
+      "repo": "google/IndicGenBench_flores_in",
+      "revision": "f8650438298df086750ff4973661bb58a201a5ee",
+      "shard": "shards/IndicGenBench.json",
+      "shard_sha256": "a04f8ced6c3e28d7ffc58db44f85bc9542e56aed04731833bfd80d9be890793d",
+      "split": "test",
+      "status": "INSTALLED",
+      "text_fields": [
+        "source",
+        "target",
+        "question",
+        "context",
+        "answer",
+        "summary",
+        "text",
+        "prediction"
+      ]
+    },
+    {
+      "candidates_tried": [],
+      "id": "BharatEval",
+      "note": "BharatEval item bank — not confirmed publicly available on HF. Marked UNAVAILABLE unless a repo id is supplied via --bharateval-repo.",
+      "reason": "no HF repo id supplied; supply via --bharateval-repo",
+      "status": "UNAVAILABLE"
+    }
+  ],
+  "build_timestamp_utc": "2026-07-25T05:44:20.439509+00:00",
+  "hashing": {
+    "canary_hash": "sha256 of normalized full item (full 64 hex chars)",
+    "canary_preview_chars": 8,
+    "cross_language": "Python and Node lookup libraries produce byte-identical gram hashes (sha256-truncated).",
+    "ngram_hash": "sha256 of normalized n-gram, first 16 hex chars (64-bit)"
+  },
+  "ngram": {
+    "char_ngram_n": 5,
+    "word_ngram_n": 8
+  },
+  "normalization": "NFC -> casefold -> strip invisible/bidi noise (U+200B, U+200E/F, U+202A-U+202E, U+2066-U+2069, U+FEFF, C0/C1) -> collapse whitespace -> trim. ZWNJ (U+200C) and ZWJ (U+200D) are PRESERVED. Char n-grams computed on whitespace-stripped normalized text.",
+  "policy_note": "Protected benchmark registry for ERA Phase 1 decontamination. Detections are CANDIDATES/ANNOTATIONS only; benchmark-contamination holdout is a user policy decision. No raw benchmark text is stored: n-grams are truncated SHA-256 (64-bit) hex hashes; canaries store a full sha256 hash plus an 8-char preview only.",
+  "registry_format_version": "1",
+  "summary": {
+    "installed": [
+      "GSM8K",
+      "IndicGenBench",
+      "IndicMMLU-Pro",
+      "MATH",
+      "MILU"
+    ],
+    "total_canaries": 250,
+    "total_char_grams": 8297030,
+    "total_word_grams": 7765999,
+    "unavailable": [
+      "BharatEval"
+    ]
+  },
+  "transliteration_note": "Devanagari->Latin only in this build. Other Brahmic scripts are hashed in their native form (char n-grams) but not romanized; per-script romanization tables are a known future extension.",
+  "transliteration_scheme": "deterministic-devanagari-iso15919-lite-v1: independent vowels, consonants with inherent 'a', dependent vowel signs (matras), virama suppresses the inherent vowel, anusvara->m, visarga->h, chandrabindu->m, nukta folded into base, digits mapped to ASCII. Non-reversible; ZWNJ/ZWJ dropped only in the romanized variant (they carry no Latin realization)."
+}

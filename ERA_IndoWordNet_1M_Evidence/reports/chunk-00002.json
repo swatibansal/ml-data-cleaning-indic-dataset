@@ -1,0 +1,39 @@
+{
+  "chunk_no": 2,
+  "completed_utc": "2026-07-25T08:41:49.842974+00:00",
+  "dispositions": {
+    "exact_duplicate_holdout": 661,
+    "near_duplicate_holdout": 1004,
+    "retained": 98335
+  },
+  "elapsed_seconds": 7451.327,
+  "end_index_exclusive": 300000,
+  "holdouts": 1665,
+  "languages": {
+    "hi": 100000
+  },
+  "normalization_and_annotations": {
+    "near_duplicate_candidate": 3765,
+    "normalization_changed": 7619
+  },
+  "outputs": {
+    "candidates": {
+      "path": "chunk-00002.candidates.jsonl.gz",
+      "sha256": "4dbb513c21e10fcce8b64c481d69208c4bd3754459ebf66ad000fc6859723587"
+    },
+    "holdouts": {
+      "path": "chunk-00002.holdouts.jsonl.gz",
+      "sha256": "b3d60ef72abd05f002d5a79ce9d1181bced5ffdab5a68c3a0de7d0663697a987"
+    },
+    "retained": {
+      "path": "chunk-00002.retained.jsonl.gz",
+      "sha256": "f1942f2d6dd22bf1d015cb57c99a4e09b927f486ec487a4a00dd920b5c146970"
+    }
+  },
+  "peak_rss_mib": 1802.64,
+  "retained": 98335,
+  "rows_per_second": 13.42,
+  "source_rows": 100000,
+  "source_sha256": "e516b39ad0ad077acc72bae512ccc237295534539bd28d5574b5f51edf209a53",
+  "start_index": 200000
+}

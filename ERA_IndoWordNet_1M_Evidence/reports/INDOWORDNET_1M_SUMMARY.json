@@ -1,0 +1,109 @@
+{
+  "chunk_size": 100000,
+  "chunks": 10,
+  "completed_utc": "2026-07-25T22:12:29.311737+00:00",
+  "database_records": 991308,
+  "dispositions": {
+    "exact_duplicate_holdout": 8692,
+    "near_duplicate_holdout": 16470,
+    "retained": 974838
+  },
+  "elapsed_seconds": 40259.151,
+  "holdouts": 25162,
+  "materialized_units": 1000000,
+  "per_chunk_hashes": [
+    {
+      "candidates_sha256": "5b0b26bb3cb6e0bc0fa90116e8cfb23899a135a2430f6ef51127aaccdfea8560",
+      "chunk_no": 0,
+      "holdout_sha256": "de2e03a64532b4e1bc74ebfc44377b24a8ca7c79158c9238d4a1b25164700600",
+      "retained_sha256": "71e556f112619af07a8684f102567d04de066542c72356e6990cfec9054a46d6",
+      "source_sha256": "2aad12e9ef782daff12a1d56a913df8f762f90748754a3cb8e12f2ba480f8090"
+    },
+    {
+      "candidates_sha256": "0d2207a87dc2f578d88bf12ae2e2d6f74af1b85778083164e3c53eff59ba8974",
+      "chunk_no": 1,
+      "holdout_sha256": "2ff24f0f43c23c1f22f40c1998ddf9911a6b866651fa2f5d428954ca9a79f3d9",
+      "retained_sha256": "d7ae414e982f3a74f237d36e0e5aaebee24cb383c569c94ea0dac81f63ca0fea",
+      "source_sha256": "566c81bcb8d5e265a633d4d08e28ea23662a8824ac7c10e4d3b04cb95d22f80a"
+    },
+    {
+      "candidates_sha256": "4dbb513c21e10fcce8b64c481d69208c4bd3754459ebf66ad000fc6859723587",
+      "chunk_no": 2,
+      "holdout_sha256": "b3d60ef72abd05f002d5a79ce9d1181bced5ffdab5a68c3a0de7d0663697a987",
+      "retained_sha256": "f1942f2d6dd22bf1d015cb57c99a4e09b927f486ec487a4a00dd920b5c146970",
+      "source_sha256": "e516b39ad0ad077acc72bae512ccc237295534539bd28d5574b5f51edf209a53"
+    },
+    {
+      "candidates_sha256": "e53a76452abfd161e719c40a25d26ba9cd12c5493b02fe24eadd77fb81a94315",
+      "chunk_no": 3,
+      "holdout_sha256": "40720d513e657c0dd6312651fe5abdb9d315918ce813c28ec9ec8a7f50e82d44",
+      "retained_sha256": "45ec50bc9cbfc8d0739b61da11c177ecf5ccf29ba017b7f8f7b99163e1d6d5dd",
+      "source_sha256": "3248cca7d0d415ba90405cc21da36014892b1968e22fbd43e43359c42d17844b"
+    },
+    {
+      "candidates_sha256": "beee0219ca8b1e132ad2219e77d335d0179a5bf83ec2a35fdcfb80bc6b69685f",
+      "chunk_no": 4,
+      "holdout_sha256": "6b823a784f7ef5f470a6ce9f9877f43d8263a187a0e38ea64aff0eb5966c931b",
+      "retained_sha256": "aa8ce3a764b03a1d5541a81bb02aca9dfbb128614d0ed68bd3421e43f1755258",
+      "source_sha256": "ec100b6b1b7bd14bd2f528ec4f9116729cec7aaa6845c8bfc8587967372640b7"
+    },
+    {
+      "candidates_sha256": "bc8d0581be3134df75f41f6e0589beb5f31429107eae97f6657a45918ef459e6",
+      "chunk_no": 5,
+      "holdout_sha256": "575b0d8d6aac57246621e6c15a4685722e384a68c30d302299096cd79c2daa96",
+      "retained_sha256": "d5259ea998dda8bd2a8c610dc9e2e17aa4c6925c536806061a2b2bd6dcc85bd7",
+      "source_sha256": "31d0715d12bffd2e7a7908e24041615ad2fc90c722067b594197e503a9dc46ab"
+    },
+    {
+      "candidates_sha256": "079d2192f5b06b27077099073f83974b0dee72be7be4c75dd461e4602f333a28",
+      "chunk_no": 6,
+      "holdout_sha256": "cff027ddbf8386a8c8dfee2c57784f3c1465458c591125017ed106dbb80e1a86",
+      "retained_sha256": "630c96c9f85ebbe4c319c4b670bda68352fa629aeb64a9ffc8535f6632b0aa58",
+      "source_sha256": "d5e07a52c3566818f826184fd85555d0db7a15ba8c1cc48db1fa8d112cde0b5e"
+    },
+    {
+      "candidates_sha256": "ddff086113038922eeb882250e300da1e7df4796eb4f844f138e3e60b772f8eb",
+      "chunk_no": 7,
+      "holdout_sha256": "992288ed1b714e9ac72611b1a03f6fa520c07db091ba768c195dfc85e9703e23",
+      "retained_sha256": "2ae4f08af0c808929dbeab5d77bc8db08488c1dfa119cccac8a0f3d83e373d76",
+      "source_sha256": "0566d08270615b38e136477513d03107307182767966206734f72fb139d6277c"
+    },
+    {
+      "candidates_sha256": "d86ea6a4c09b2500a06b54c8b4fda205d7513ffb083295b2cfd096613c0c5b3a",
+      "chunk_no": 8,
+      "holdout_sha256": "91f65481495b711f7e66ec1c1e24b0cab724e22a7532e6b37142679856c0a8e5",
+      "retained_sha256": "f570e9a185a51a3bc1cfd0a3c10520893b1cceb9741ec5d28594dd114f5d19da",
+      "source_sha256": "4f93ce86551813d3e32dad84d18f597ee743daa5ce4ec6a76b4f6955c83aedfb"
+    },
+    {
+      "candidates_sha256": "d8f14a4a1bf81b9e3b467afe954c77bef55649816238bc472c2ea462ab7d6a7a",
+      "chunk_no": 9,
+      "holdout_sha256": "0bd1eb107205f2f742401e8aaebef7eac9c9aa5800ed1c14a48e343392a4dd2e",
+      "retained_sha256": "62ac2556fec708ecd72bd130b373e833bda122032e370fdafa260149b4ef11b4",
+      "source_sha256": "fc37e959f83c9a364cc3fbab98babd1af6290b5b77ca42550c9b956bc1867605"
+    }
+  ],
+  "policy": "ERA-IndoWordNet-policy-v2.1",
+  "reconciliation_difference": 0,
+  "release_blockers": [
+    "benchmark registry not installed"
+  ],
+  "retained_units": 974838,
+  "rows_per_second": 24.84,
+  "source_rows": 1000000,
+  "status": "PASSED",
+  "strategy_status": {
+    "benchmark_decontamination": "NOT RUN",
+    "checkpoint_restart": "RUN",
+    "exact_deduplication_global": "RUN",
+    "human_language_review": "NOT RUN",
+    "language_metadata_validation": "RUN",
+    "near_deduplication_global": "RUN",
+    "privacy_and_secrets": "RUN",
+    "quality_repetition_gate": "RUN",
+    "semantic_lexical_correctness": "NOT APPLICABLE",
+    "source_integrity": "RUN",
+    "structural_validation": "RUN",
+    "unicode_normalization": "RUN"
+  }
+}

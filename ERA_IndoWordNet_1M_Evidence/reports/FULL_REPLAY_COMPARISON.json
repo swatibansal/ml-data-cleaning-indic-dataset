@@ -1,0 +1,127 @@
+{
+  "per_file": {
+    "chunk-00000.candidates.jsonl.gz": {
+      "original": "5b0b26bb3cb6e0bc0fa90116e8cfb23899a135a2430f6ef51127aaccdfea8560",
+      "replay": "5b0b26bb3cb6e0bc0fa90116e8cfb23899a135a2430f6ef51127aaccdfea8560"
+    },
+    "chunk-00000.holdouts.jsonl.gz": {
+      "original": "de2e03a64532b4e1bc74ebfc44377b24a8ca7c79158c9238d4a1b25164700600",
+      "replay": "de2e03a64532b4e1bc74ebfc44377b24a8ca7c79158c9238d4a1b25164700600"
+    },
+    "chunk-00000.retained.jsonl.gz": {
+      "original": "71e556f112619af07a8684f102567d04de066542c72356e6990cfec9054a46d6",
+      "replay": "71e556f112619af07a8684f102567d04de066542c72356e6990cfec9054a46d6"
+    },
+    "chunk-00001.candidates.jsonl.gz": {
+      "original": "0d2207a87dc2f578d88bf12ae2e2d6f74af1b85778083164e3c53eff59ba8974",
+      "replay": "0d2207a87dc2f578d88bf12ae2e2d6f74af1b85778083164e3c53eff59ba8974"
+    },
+    "chunk-00001.holdouts.jsonl.gz": {
+      "original": "2ff24f0f43c23c1f22f40c1998ddf9911a6b866651fa2f5d428954ca9a79f3d9",
+      "replay": "2ff24f0f43c23c1f22f40c1998ddf9911a6b866651fa2f5d428954ca9a79f3d9"
+    },
+    "chunk-00001.retained.jsonl.gz": {
+      "original": "d7ae414e982f3a74f237d36e0e5aaebee24cb383c569c94ea0dac81f63ca0fea",
+      "replay": "d7ae414e982f3a74f237d36e0e5aaebee24cb383c569c94ea0dac81f63ca0fea"
+    },
+    "chunk-00002.candidates.jsonl.gz": {
+      "original": "4dbb513c21e10fcce8b64c481d69208c4bd3754459ebf66ad000fc6859723587",
+      "replay": "4dbb513c21e10fcce8b64c481d69208c4bd3754459ebf66ad000fc6859723587"
+    },
+    "chunk-00002.holdouts.jsonl.gz": {
+      "original": "b3d60ef72abd05f002d5a79ce9d1181bced5ffdab5a68c3a0de7d0663697a987",
+      "replay": "b3d60ef72abd05f002d5a79ce9d1181bced5ffdab5a68c3a0de7d0663697a987"
+    },
+    "chunk-00002.retained.jsonl.gz": {
+      "original": "f1942f2d6dd22bf1d015cb57c99a4e09b927f486ec487a4a00dd920b5c146970",
+      "replay": "f1942f2d6dd22bf1d015cb57c99a4e09b927f486ec487a4a00dd920b5c146970"
+    },
+    "chunk-00003.candidates.jsonl.gz": {
+      "original": "e53a76452abfd161e719c40a25d26ba9cd12c5493b02fe24eadd77fb81a94315",
+      "replay": "e53a76452abfd161e719c40a25d26ba9cd12c5493b02fe24eadd77fb81a94315"
+    },
+    "chunk-00003.holdouts.jsonl.gz": {
+      "original": "40720d513e657c0dd6312651fe5abdb9d315918ce813c28ec9ec8a7f50e82d44",
+      "replay": "40720d513e657c0dd6312651fe5abdb9d315918ce813c28ec9ec8a7f50e82d44"
+    },
+    "chunk-00003.retained.jsonl.gz": {
+      "original": "45ec50bc9cbfc8d0739b61da11c177ecf5ccf29ba017b7f8f7b99163e1d6d5dd",
+      "replay": "45ec50bc9cbfc8d0739b61da11c177ecf5ccf29ba017b7f8f7b99163e1d6d5dd"
+    },
+    "chunk-00004.candidates.jsonl.gz": {
+      "original": "beee0219ca8b1e132ad2219e77d335d0179a5bf83ec2a35fdcfb80bc6b69685f",
+      "replay": "beee0219ca8b1e132ad2219e77d335d0179a5bf83ec2a35fdcfb80bc6b69685f"
+    },
+    "chunk-00004.holdouts.jsonl.gz": {
+      "original": "6b823a784f7ef5f470a6ce9f9877f43d8263a187a0e38ea64aff0eb5966c931b",
+      "replay": "6b823a784f7ef5f470a6ce9f9877f43d8263a187a0e38ea64aff0eb5966c931b"
+    },
+    "chunk-00004.retained.jsonl.gz": {
+      "original": "aa8ce3a764b03a1d5541a81bb02aca9dfbb128614d0ed68bd3421e43f1755258",
+      "replay": "aa8ce3a764b03a1d5541a81bb02aca9dfbb128614d0ed68bd3421e43f1755258"
+    },
+    "chunk-00005.candidates.jsonl.gz": {
+      "original": "bc8d0581be3134df75f41f6e0589beb5f31429107eae97f6657a45918ef459e6",
+      "replay": "bc8d0581be3134df75f41f6e0589beb5f31429107eae97f6657a45918ef459e6"
+    },
+    "chunk-00005.holdouts.jsonl.gz": {
+      "original": "575b0d8d6aac57246621e6c15a4685722e384a68c30d302299096cd79c2daa96",
+      "replay": "575b0d8d6aac57246621e6c15a4685722e384a68c30d302299096cd79c2daa96"
+    },
+    "chunk-00005.retained.jsonl.gz": {
+      "original": "d5259ea998dda8bd2a8c610dc9e2e17aa4c6925c536806061a2b2bd6dcc85bd7",
+      "replay": "d5259ea998dda8bd2a8c610dc9e2e17aa4c6925c536806061a2b2bd6dcc85bd7"
+    },
+    "chunk-00006.candidates.jsonl.gz": {
+      "original": "079d2192f5b06b27077099073f83974b0dee72be7be4c75dd461e4602f333a28",
+      "replay": "079d2192f5b06b27077099073f83974b0dee72be7be4c75dd461e4602f333a28"
+    },
+    "chunk-00006.holdouts.jsonl.gz": {
+      "original": "cff027ddbf8386a8c8dfee2c57784f3c1465458c591125017ed106dbb80e1a86",
+      "replay": "cff027ddbf8386a8c8dfee2c57784f3c1465458c591125017ed106dbb80e1a86"
+    },
+    "chunk-00006.retained.jsonl.gz": {
+      "original": "630c96c9f85ebbe4c319c4b670bda68352fa629aeb64a9ffc8535f6632b0aa58",
+      "replay": "630c96c9f85ebbe4c319c4b670bda68352fa629aeb64a9ffc8535f6632b0aa58"
+    },
+    "chunk-00007.candidates.jsonl.gz": {
+      "original": "ddff086113038922eeb882250e300da1e7df4796eb4f844f138e3e60b772f8eb",
+      "replay": "ddff086113038922eeb882250e300da1e7df4796eb4f844f138e3e60b772f8eb"
+    },
+    "chunk-00007.holdouts.jsonl.gz": {
+      "original": "992288ed1b714e9ac72611b1a03f6fa520c07db091ba768c195dfc85e9703e23",
+      "replay": "992288ed1b714e9ac72611b1a03f6fa520c07db091ba768c195dfc85e9703e23"
+    },
+    "chunk-00007.retained.jsonl.gz": {
+      "original": "2ae4f08af0c808929dbeab5d77bc8db08488c1dfa119cccac8a0f3d83e373d76",
+      "replay": "2ae4f08af0c808929dbeab5d77bc8db08488c1dfa119cccac8a0f3d83e373d76"
+    },
+    "chunk-00008.candidates.jsonl.gz": {
+      "original": "d86ea6a4c09b2500a06b54c8b4fda205d7513ffb083295b2cfd096613c0c5b3a",
+      "replay": "d86ea6a4c09b2500a06b54c8b4fda205d7513ffb083295b2cfd096613c0c5b3a"
+    },
+    "chunk-00008.holdouts.jsonl.gz": {
+      "original": "91f65481495b711f7e66ec1c1e24b0cab724e22a7532e6b37142679856c0a8e5",
+      "replay": "91f65481495b711f7e66ec1c1e24b0cab724e22a7532e6b37142679856c0a8e5"
+    },
+    "chunk-00008.retained.jsonl.gz": {
+      "original": "f570e9a185a51a3bc1cfd0a3c10520893b1cceb9741ec5d28594dd114f5d19da",
+      "replay": "f570e9a185a51a3bc1cfd0a3c10520893b1cceb9741ec5d28594dd114f5d19da"
+    },
+    "chunk-00009.candidates.jsonl.gz": {
+      "original": "d8f14a4a1bf81b9e3b467afe954c77bef55649816238bc472c2ea462ab7d6a7a",
+      "replay": "d8f14a4a1bf81b9e3b467afe954c77bef55649816238bc472c2ea462ab7d6a7a"
+    },
+    "chunk-00009.holdouts.jsonl.gz": {
+      "original": "0bd1eb107205f2f742401e8aaebef7eac9c9aa5800ed1c14a48e343392a4dd2e",
+      "replay": "0bd1eb107205f2f742401e8aaebef7eac9c9aa5800ed1c14a48e343392a4dd2e"
+    },
+    "chunk-00009.retained.jsonl.gz": {
+      "original": "62ac2556fec708ecd72bd130b373e833bda122032e370fdafa260149b4ef11b4",
+      "replay": "62ac2556fec708ecd72bd130b373e833bda122032e370fdafa260149b4ef11b4"
+    }
+  },
+  "purpose": "Full from-scratch replay comparison. The original run was interrupted twice for approved performance-only changes (idx_records_canonical index; candidate_rows OR->UNION rewrite) and resumed from checkpoints. A complete fresh run with the final code was executed to a separate output directory and compared byte-for-byte.",
+  "result": "BYTE_IDENTICAL",
+  "streams_compared": 30
+}

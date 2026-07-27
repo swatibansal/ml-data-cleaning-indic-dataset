@@ -1,0 +1,14 @@
+{
+  "chunk_size": 100000,
+  "created_utc": "2026-07-25T21:53:45.665442+00:00",
+  "declared_full_component_rows": 96843950,
+  "declared_source_shards": 10,
+  "expected_chunks": 10,
+  "policy": "ERA-IndoWordNet-policy-v2.1",
+  "rehearsal_rows": 1000000,
+  "repository_id": "ai4bharat/indic-align",
+  "resolved_source": "hf://datasets/ai4bharat/indic-align/IndoWordNet@032b6a9070e7f85f1a38e0506419f4590a20455a",
+  "revision": "032b6a9070e7f85f1a38e0506419f4590a20455a",
+  "sampling_seed_reference": 20260724,
+  "selection": "deterministic pinned source-order prefix"
+}
