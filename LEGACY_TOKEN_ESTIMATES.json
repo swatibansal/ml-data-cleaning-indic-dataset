@@ -1,0 +1,936 @@
+{
+  "components": {
+    "Anudesh": {
+      "basis": "source_sample_text_estimate",
+      "estimated_retained_tokens": 14324076,
+      "per_language": {
+        "all": {
+          "cells": 36820,
+          "tokens": 15428184,
+          "tokens_per_word": 1.6373,
+          "turn_texts": 97505,
+          "words": 9422840
+        }
+      },
+      "source_rows": 36820,
+      "source_text_tokens": 15428184,
+      "status": "RUN",
+      "totals": {
+        "cells": 36820,
+        "tokens": 15428184,
+        "tokens_per_word": 1.6373,
+        "turn_texts": 97505,
+        "words": 9422840
+      },
+      "units": {
+        "retained": 34185,
+        "retention": 0.928436,
+        "total": 36820
+      }
+    },
+    "Dolly_T": {
+      "basis": "source_sample_text_estimate",
+      "estimated_retained_tokens": 80800938,
+      "per_language": {
+        "asm_Beng": {
+          "cells": 15011,
+          "tokens": 2716650,
+          "tokens_per_word": 2.7059,
+          "turn_texts": 30022,
+          "words": 1003969
+        },
+        "asm_Latn": {
+          "cells": 15011,
+          "tokens": 2652989,
+          "tokens_per_word": 2.6431,
+          "turn_texts": 29922,
+          "words": 1003750
+        },
+        "ben_Beng": {
+          "cells": 15011,
+          "tokens": 2345434,
+          "tokens_per_word": 2.4055,
+          "turn_texts": 30022,
+          "words": 975022
+        },
+        "ben_Latn": {
+          "cells": 15011,
+          "tokens": 2452295,
+          "tokens_per_word": 2.5156,
+          "turn_texts": 29926,
+          "words": 974824
+        },
+        "eng_Latn": {
+          "cells": 15011,
+          "tokens": 1415000,
+          "tokens_per_word": 1.3004,
+          "turn_texts": 30022,
+          "words": 1088096
+        },
+        "guj_Gujr": {
+          "cells": 15011,
+          "tokens": 2440604,
+          "tokens_per_word": 2.3315,
+          "turn_texts": 30022,
+          "words": 1046783
+        },
+        "hin_Deva": {
+          "cells": 15011,
+          "tokens": 2145395,
+          "tokens_per_word": 1.7164,
+          "turn_texts": 30022,
+          "words": 1249925
+        },
+        "hin_Latn": {
+          "cells": 15011,
+          "tokens": 2615983,
+          "tokens_per_word": 2.0933,
+          "turn_texts": 29924,
+          "words": 1249717
+        },
+        "kan_Knda": {
+          "cells": 15011,
+          "tokens": 2693077,
+          "tokens_per_word": 3.3069,
+          "turn_texts": 30022,
+          "words": 814374
+        },
+        "kan_Latn": {
+          "cells": 15011,
+          "tokens": 2644837,
+          "tokens_per_word": 3.2486,
+          "turn_texts": 29921,
+          "words": 814142
+        },
+        "mal_Latn": {
+          "cells": 15011,
+          "tokens": 2783379,
+          "tokens_per_word": 3.6005,
+          "turn_texts": 29926,
+          "words": 773048
+        },
+        "mal_Mlym": {
+          "cells": 15011,
+          "tokens": 2637361,
+          "tokens_per_word": 3.4107,
+          "turn_texts": 30022,
+          "words": 773255
+        },
+        "mar_Deva": {
+          "cells": 15011,
+          "tokens": 2451461,
+          "tokens_per_word": 2.5787,
+          "turn_texts": 30022,
+          "words": 950676
+        },
+        "mar_Latn": {
+          "cells": 15011,
+          "tokens": 2552103,
+          "tokens_per_word": 2.6851,
+          "turn_texts": 29925,
+          "words": 950470
+        },
+        "npi_Deva": {
+          "cells": 15011,
+          "tokens": 2266336,
+          "tokens_per_word": 2.3944,
+          "turn_texts": 30022,
+          "words": 946528
+        },
+        "npi_Latn": {
+          "cells": 15011,
+          "tokens": 2437461,
+          "tokens_per_word": 2.5757,
+          "turn_texts": 29948,
+          "words": 946344
+        },
+        "ory_Latn": {
+          "cells": 15011,
+          "tokens": 2548653,
+          "tokens_per_word": 2.5618,
+          "turn_texts": 29920,
+          "words": 994865
+        },
+        "ory_Orya": {
+          "cells": 15011,
+          "tokens": 4239175,
+          "tokens_per_word": 4.2601,
+          "turn_texts": 30022,
+          "words": 995097
+        },
+        "pan_Guru": {
+          "cells": 15011,
+          "tokens": 3330515,
+          "tokens_per_word": 2.6668,
+          "turn_texts": 30022,
+          "words": 1248891
+        },
+        "pan_Latn": {
+          "cells": 15011,
+          "tokens": 2609922,
+          "tokens_per_word": 2.0904,
+          "turn_texts": 29918,
+          "words": 1248531
+        },
+        "san_Deva": {
+          "cells": 15011,
+          "tokens": 3198623,
+          "tokens_per_word": 3.9874,
+          "turn_texts": 30022,
+          "words": 802177
+        },
+        "san_Latn": {
+          "cells": 15011,
+          "tokens": 2804564,
+          "tokens_per_word": 3.4969,
+          "turn_texts": 29958,
+          "words": 802021
+        },
+        "tam_Latn": {
+          "cells": 15011,
+          "tokens": 2985568,
+          "tokens_per_word": 3.4947,
+          "turn_texts": 29919,
+          "words": 854316
+        },
+        "tam_Taml": {
+          "cells": 15011,
+          "tokens": 2680580,
+          "tokens_per_word": 3.1368,
+          "turn_texts": 30022,
+          "words": 854554
+        },
+        "tel_Latn": {
+          "cells": 15011,
+          "tokens": 2517336,
+          "tokens_per_word": 2.9455,
+          "turn_texts": 29917,
+          "words": 854632
+        },
+        "tel_Telu": {
+          "cells": 15011,
+          "tokens": 2685773,
+          "tokens_per_word": 3.1417,
+          "turn_texts": 30022,
+          "words": 854868
+        },
+        "urd_Arab": {
+          "cells": 15011,
+          "tokens": 9884353,
+          "tokens_per_word": 7.3865,
+          "turn_texts": 30022,
+          "words": 1338156
+        },
+        "urd_Latn": {
+          "cells": 15011,
+          "tokens": 2630006,
+          "tokens_per_word": 1.9656,
+          "turn_texts": 29936,
+          "words": 1338016
+        }
+      },
+      "source_rows": 15011,
+      "source_text_tokens": 81365433,
+      "status": "RUN",
+      "totals": {
+        "cells": 420308,
+        "tokens": 81365433,
+        "tokens_per_word": 2.9324,
+        "turn_texts": 839390,
+        "words": 27747047
+      },
+      "units": {
+        "retained": 417392,
+        "retention": 0.993062,
+        "total": 420308
+      }
+    },
+    "IndoWordNet_10K": {
+      "basis": "source_sample_text_estimate",
+      "estimated_retained_tokens": 1040151,
+      "per_language": {
+        "all": {
+          "cells": 10000,
+          "tokens": 1041609,
+          "tokens_per_word": 3.4423,
+          "turn_texts": 20000,
+          "words": 302587
+        }
+      },
+      "source_rows": 10000,
+      "source_text_tokens": 1041609,
+      "status": "RUN",
+      "totals": {
+        "cells": 10000,
+        "tokens": 1041609,
+        "tokens_per_word": 3.4423,
+        "turn_texts": 20000,
+        "words": 302587
+      },
+      "units": {
+        "retained": 9986,
+        "retention": 0.9986,
+        "total": 10000
+      }
+    },
+    "OpenAssistant_T": {
+      "basis": "source_sample_text_estimate",
+      "estimated_retained_tokens": 279681886,
+      "per_language": {
+        "asm_Beng": {
+          "cells": 19909,
+          "tokens": 12309184,
+          "tokens_per_word": 2.5953,
+          "turn_texts": 72084,
+          "words": 4742845
+        },
+        "asm_Latn": {
+          "cells": 19909,
+          "tokens": 12511155,
+          "tokens_per_word": 2.639,
+          "turn_texts": 72084,
+          "words": 4740836
+        },
+        "ben_Beng": {
+          "cells": 19909,
+          "tokens": 10546048,
+          "tokens_per_word": 2.2658,
+          "turn_texts": 72084,
+          "words": 4654424
+        },
+        "ben_Latn": {
+          "cells": 19909,
+          "tokens": 11609149,
+          "tokens_per_word": 2.4952,
+          "turn_texts": 72084,
+          "words": 4652565
+        },
+        "eng_Latn": {
+          "cells": 19896,
+          "tokens": 5910298,
+          "tokens_per_word": 1.2688,
+          "turn_texts": 69232,
+          "words": 4658237
+        },
+        "guj_Gujr": {
+          "cells": 19909,
+          "tokens": 10943472,
+          "tokens_per_word": 2.2055,
+          "turn_texts": 72084,
+          "words": 4961912
+        },
+        "hin_Deva": {
+          "cells": 19909,
+          "tokens": 9651001,
+          "tokens_per_word": 1.6266,
+          "turn_texts": 72084,
+          "words": 5933315
+        },
+        "hin_Latn": {
+          "cells": 19909,
+          "tokens": 11109368,
+          "tokens_per_word": 2.173,
+          "turn_texts": 72084,
+          "words": 5112382
+        },
+        "kan_Knda": {
+          "cells": 19909,
+          "tokens": 12014841,
+          "tokens_per_word": 3.198,
+          "turn_texts": 72084,
+          "words": 3757040
+        },
+        "kan_Latn": {
+          "cells": 19909,
+          "tokens": 12450972,
+          "tokens_per_word": 3.316,
+          "turn_texts": 72084,
+          "words": 3754815
+        },
+        "mal_Latn": {
+          "cells": 19909,
+          "tokens": 13130502,
+          "tokens_per_word": 3.6942,
+          "turn_texts": 72084,
+          "words": 3554333
+        },
+        "mal_Mlym": {
+          "cells": 19909,
+          "tokens": 11974145,
+          "tokens_per_word": 3.3637,
+          "turn_texts": 72084,
+          "words": 3559781
+        },
+        "mar_Deva": {
+          "cells": 19909,
+          "tokens": 10995307,
+          "tokens_per_word": 2.4676,
+          "turn_texts": 72084,
+          "words": 4455952
+        },
+        "mar_Latn": {
+          "cells": 19909,
+          "tokens": 11863290,
+          "tokens_per_word": 2.6639,
+          "turn_texts": 72084,
+          "words": 4453343
+        },
+        "npi_Deva": {
+          "cells": 19909,
+          "tokens": 10240177,
+          "tokens_per_word": 2.3024,
+          "turn_texts": 72084,
+          "words": 4447652
+        },
+        "npi_Latn": {
+          "cells": 19909,
+          "tokens": 11685357,
+          "tokens_per_word": 2.4885,
+          "turn_texts": 72084,
+          "words": 4695749
+        },
+        "ory_Latn": {
+          "cells": 19909,
+          "tokens": 12064941,
+          "tokens_per_word": 2.5623,
+          "turn_texts": 72084,
+          "words": 4708580
+        },
+        "ory_Orya": {
+          "cells": 19909,
+          "tokens": 19621343,
+          "tokens_per_word": 4.1621,
+          "turn_texts": 72084,
+          "words": 4714315
+        },
+        "pan_Guru": {
+          "cells": 19909,
+          "tokens": 15178818,
+          "tokens_per_word": 2.5733,
+          "turn_texts": 72084,
+          "words": 5898573
+        },
+        "pan_Latn": {
+          "cells": 19909,
+          "tokens": 12126573,
+          "tokens_per_word": 2.0642,
+          "turn_texts": 72084,
+          "words": 5874723
+        },
+        "san_Deva": {
+          "cells": 19909,
+          "tokens": 14348485,
+          "tokens_per_word": 3.7523,
+          "turn_texts": 72084,
+          "words": 3823868
+        },
+        "san_Latn": {
+          "cells": 19909,
+          "tokens": 13216361,
+          "tokens_per_word": 3.2213,
+          "turn_texts": 72084,
+          "words": 4102834
+        },
+        "tam_Latn": {
+          "cells": 19909,
+          "tokens": 13775993,
+          "tokens_per_word": 3.5752,
+          "turn_texts": 72084,
+          "words": 3853252
+        },
+        "tam_Taml": {
+          "cells": 19909,
+          "tokens": 11878448,
+          "tokens_per_word": 3.0442,
+          "turn_texts": 72084,
+          "words": 3901991
+        },
+        "tel_Latn": {
+          "cells": 19909,
+          "tokens": 11829546,
+          "tokens_per_word": 3.0265,
+          "turn_texts": 72084,
+          "words": 3908621
+        },
+        "tel_Telu": {
+          "cells": 19909,
+          "tokens": 12080157,
+          "tokens_per_word": 3.0788,
+          "turn_texts": 72084,
+          "words": 3923621
+        },
+        "urd_Arab": {
+          "cells": 19909,
+          "tokens": 45861305,
+          "tokens_per_word": 7.1802,
+          "turn_texts": 72084,
+          "words": 6387158
+        },
+        "urd_Latn": {
+          "cells": 19909,
+          "tokens": 12054827,
+          "tokens_per_word": 1.9886,
+          "turn_texts": 72084,
+          "words": 6062021
+        }
+      },
+      "source_rows": 19909,
+      "source_text_tokens": 372981063,
+      "status": "RUN",
+      "totals": {
+        "cells": 557439,
+        "tokens": 372981063,
+        "tokens_per_word": 2.8847,
+        "turn_texts": 2015500,
+        "words": 129294738
+      },
+      "units": {
+        "retained": 653667,
+        "retention": 0.749855,
+        "total": 871724
+      }
+    },
+    "Toxic_Matrix_10K": {
+      "basis": "source_sample_text_estimate",
+      "estimated_retained_tokens": 94868810,
+      "per_language": {
+        "asm_Beng": {
+          "cells": 10000,
+          "tokens": 2970215,
+          "tokens_per_word": 2.4858,
+          "turn_texts": 20000,
+          "words": 1194868
+        },
+        "asm_Latn": {
+          "cells": 10000,
+          "tokens": 3212432,
+          "tokens_per_word": 2.6885,
+          "turn_texts": 20000,
+          "words": 1194868
+        },
+        "ben_Beng": {
+          "cells": 10000,
+          "tokens": 2493756,
+          "tokens_per_word": 2.1436,
+          "turn_texts": 20000,
+          "words": 1163365
+        },
+        "ben_Latn": {
+          "cells": 10000,
+          "tokens": 3017271,
+          "tokens_per_word": 2.5936,
+          "turn_texts": 20000,
+          "words": 1163365
+        },
+        "eng_Latn": {
+          "cells": 10000,
+          "tokens": 1421934,
+          "tokens_per_word": 1.1571,
+          "turn_texts": 20000,
+          "words": 1228896
+        },
+        "guj_Gujr": {
+          "cells": 10000,
+          "tokens": 2698146,
+          "tokens_per_word": 2.1801,
+          "turn_texts": 20000,
+          "words": 1237622
+        },
+        "hin_Deva": {
+          "cells": 10000,
+          "tokens": 2307309,
+          "tokens_per_word": 1.5067,
+          "turn_texts": 20000,
+          "words": 1531343
+        },
+        "hin_Latn": {
+          "cells": 10000,
+          "tokens": 3231462,
+          "tokens_per_word": 2.1102,
+          "turn_texts": 20000,
+          "words": 1531343
+        },
+        "kan_Knda": {
+          "cells": 10000,
+          "tokens": 2889605,
+          "tokens_per_word": 3.2756,
+          "turn_texts": 20000,
+          "words": 882161
+        },
+        "kan_Latn": {
+          "cells": 10000,
+          "tokens": 3199898,
+          "tokens_per_word": 3.6273,
+          "turn_texts": 20000,
+          "words": 882161
+        },
+        "mal_Latn": {
+          "cells": 10000,
+          "tokens": 3449587,
+          "tokens_per_word": 4.3662,
+          "turn_texts": 20000,
+          "words": 790069
+        },
+        "mal_Mlym": {
+          "cells": 10000,
+          "tokens": 2874151,
+          "tokens_per_word": 3.6378,
+          "turn_texts": 20000,
+          "words": 790069
+        },
+        "mar_Deva": {
+          "cells": 10000,
+          "tokens": 2618107,
+          "tokens_per_word": 2.3462,
+          "turn_texts": 20000,
+          "words": 1115870
+        },
+        "mar_Latn": {
+          "cells": 10000,
+          "tokens": 3038370,
+          "tokens_per_word": 2.7229,
+          "turn_texts": 20000,
+          "words": 1115870
+        },
+        "npi_Deva": {
+          "cells": 10000,
+          "tokens": 2471962,
+          "tokens_per_word": 2.2176,
+          "turn_texts": 20000,
+          "words": 1114690
+        },
+        "npi_Latn": {
+          "cells": 10000,
+          "tokens": 2950617,
+          "tokens_per_word": 2.647,
+          "turn_texts": 20000,
+          "words": 1114690
+        },
+        "ory_Latn": {
+          "cells": 10000,
+          "tokens": 3138208,
+          "tokens_per_word": 2.639,
+          "turn_texts": 20000,
+          "words": 1189162
+        },
+        "ory_Orya": {
+          "cells": 10000,
+          "tokens": 5145289,
+          "tokens_per_word": 4.3268,
+          "turn_texts": 20000,
+          "words": 1189162
+        },
+        "pan_Guru": {
+          "cells": 10000,
+          "tokens": 3916526,
+          "tokens_per_word": 2.5808,
+          "turn_texts": 20000,
+          "words": 1517570
+        },
+        "pan_Latn": {
+          "cells": 10000,
+          "tokens": 3214953,
+          "tokens_per_word": 2.1185,
+          "turn_texts": 20000,
+          "words": 1517570
+        },
+        "san_Deva": {
+          "cells": 10000,
+          "tokens": 3436706,
+          "tokens_per_word": 3.6617,
+          "turn_texts": 20000,
+          "words": 938542
+        },
+        "san_Latn": {
+          "cells": 10000,
+          "tokens": 3140690,
+          "tokens_per_word": 3.3463,
+          "turn_texts": 20000,
+          "words": 938542
+        },
+        "tam_Latn": {
+          "cells": 10000,
+          "tokens": 3760901,
+          "tokens_per_word": 3.9929,
+          "turn_texts": 20000,
+          "words": 941906
+        },
+        "tam_Taml": {
+          "cells": 10000,
+          "tokens": 2944533,
+          "tokens_per_word": 3.1261,
+          "turn_texts": 20000,
+          "words": 941906
+        },
+        "tel_Latn": {
+          "cells": 10000,
+          "tokens": 3129258,
+          "tokens_per_word": 3.3398,
+          "turn_texts": 20000,
+          "words": 936970
+        },
+        "tel_Telu": {
+          "cells": 10000,
+          "tokens": 2935937,
+          "tokens_per_word": 3.1334,
+          "turn_texts": 20000,
+          "words": 936970
+        },
+        "urd_Arab": {
+          "cells": 10000,
+          "tokens": 12079938,
+          "tokens_per_word": 7.3402,
+          "turn_texts": 20000,
+          "words": 1645733
+        },
+        "urd_Latn": {
+          "cells": 10000,
+          "tokens": 3200366,
+          "tokens_per_word": 1.9446,
+          "turn_texts": 20000,
+          "words": 1645733
+        }
+      },
+      "source_rows": 10000,
+      "source_text_tokens": 94888127,
+      "status": "RUN",
+      "totals": {
+        "cells": 280000,
+        "tokens": 94888127,
+        "tokens_per_word": 2.9295,
+        "turn_texts": 560000,
+        "words": 32391016
+      },
+      "units": {
+        "retained": 279943,
+        "retention": 0.999796,
+        "total": 280000
+      }
+    },
+    "Wiki_Chat_10K": {
+      "basis": "source_sample_text_estimate",
+      "estimated_retained_tokens": 523815041,
+      "per_language": {
+        "asm_Beng": {
+          "cells": 10000,
+          "tokens": 17373862,
+          "tokens_per_word": 2.6944,
+          "turn_texts": 56626,
+          "words": 6448238
+        },
+        "asm_Latn": {
+          "cells": 10000,
+          "tokens": 18008962,
+          "tokens_per_word": 2.7932,
+          "turn_texts": 56644,
+          "words": 6447436
+        },
+        "ben_Beng": {
+          "cells": 10000,
+          "tokens": 14873384,
+          "tokens_per_word": 2.3726,
+          "turn_texts": 56626,
+          "words": 6268700
+        },
+        "ben_Latn": {
+          "cells": 10000,
+          "tokens": 16861995,
+          "tokens_per_word": 2.6903,
+          "turn_texts": 56644,
+          "words": 6267772
+        },
+        "eng_Latn": {
+          "cells": 10000,
+          "tokens": 9332503,
+          "tokens_per_word": 1.3043,
+          "turn_texts": 56626,
+          "words": 7155138
+        },
+        "guj_Gujr": {
+          "cells": 10000,
+          "tokens": 15700764,
+          "tokens_per_word": 2.3257,
+          "turn_texts": 56626,
+          "words": 6750953
+        },
+        "hin_Deva": {
+          "cells": 10000,
+          "tokens": 13386221,
+          "tokens_per_word": 1.6316,
+          "turn_texts": 56626,
+          "words": 8204225
+        },
+        "hin_Latn": {
+          "cells": 10000,
+          "tokens": 17363778,
+          "tokens_per_word": 2.1353,
+          "turn_texts": 56644,
+          "words": 8131714
+        },
+        "kan_Knda": {
+          "cells": 10000,
+          "tokens": 16815873,
+          "tokens_per_word": 3.1421,
+          "turn_texts": 56626,
+          "words": 5351780
+        },
+        "kan_Latn": {
+          "cells": 10000,
+          "tokens": 18067557,
+          "tokens_per_word": 3.3768,
+          "turn_texts": 56644,
+          "words": 5350455
+        },
+        "mal_Latn": {
+          "cells": 10000,
+          "tokens": 19069054,
+          "tokens_per_word": 3.9636,
+          "turn_texts": 56644,
+          "words": 4811026
+        },
+        "mal_Mlym": {
+          "cells": 10000,
+          "tokens": 16688039,
+          "tokens_per_word": 3.4677,
+          "turn_texts": 56626,
+          "words": 4812430
+        },
+        "mar_Deva": {
+          "cells": 10000,
+          "tokens": 15405096,
+          "tokens_per_word": 2.5141,
+          "turn_texts": 56626,
+          "words": 6127544
+        },
+        "mar_Latn": {
+          "cells": 10000,
+          "tokens": 17452052,
+          "tokens_per_word": 2.8489,
+          "turn_texts": 56644,
+          "words": 6125948
+        },
+        "npi_Deva": {
+          "cells": 10000,
+          "tokens": 15228189,
+          "tokens_per_word": 2.4786,
+          "turn_texts": 56626,
+          "words": 6143933
+        },
+        "npi_Latn": {
+          "cells": 10000,
+          "tokens": 14688915,
+          "tokens_per_word": 2.6379,
+          "turn_texts": 56644,
+          "words": 5568405
+        },
+        "ory_Latn": {
+          "cells": 10000,
+          "tokens": 17428946,
+          "tokens_per_word": 2.7091,
+          "turn_texts": 56644,
+          "words": 6433497
+        },
+        "ory_Orya": {
+          "cells": 10000,
+          "tokens": 28725864,
+          "tokens_per_word": 4.4562,
+          "turn_texts": 56626,
+          "words": 6446290
+        },
+        "pan_Guru": {
+          "cells": 10000,
+          "tokens": 21905265,
+          "tokens_per_word": 2.658,
+          "turn_texts": 56626,
+          "words": 8241256
+        },
+        "pan_Latn": {
+          "cells": 10000,
+          "tokens": 17612807,
+          "tokens_per_word": 2.1374,
+          "turn_texts": 56644,
+          "words": 8240484
+        },
+        "san_Deva": {
+          "cells": 10000,
+          "tokens": 19853692,
+          "tokens_per_word": 3.9781,
+          "turn_texts": 56626,
+          "words": 4990800
+        },
+        "san_Latn": {
+          "cells": 10000,
+          "tokens": 18609149,
+          "tokens_per_word": 3.7298,
+          "turn_texts": 56644,
+          "words": 4989275
+        },
+        "tam_Latn": {
+          "cells": 10000,
+          "tokens": 20386288,
+          "tokens_per_word": 3.7431,
+          "turn_texts": 56644,
+          "words": 5446329
+        },
+        "tam_Taml": {
+          "cells": 10000,
+          "tokens": 17056841,
+          "tokens_per_word": 3.1311,
+          "turn_texts": 56626,
+          "words": 5447567
+        },
+        "tel_Latn": {
+          "cells": 10000,
+          "tokens": 17250187,
+          "tokens_per_word": 3.1396,
+          "turn_texts": 56644,
+          "words": 5494405
+        },
+        "tel_Telu": {
+          "cells": 10000,
+          "tokens": 16951643,
+          "tokens_per_word": 3.0849,
+          "turn_texts": 56626,
+          "words": 5495101
+        },
+        "urd_Arab": {
+          "cells": 10000,
+          "tokens": 66352357,
+          "tokens_per_word": 7.5097,
+          "turn_texts": 56626,
+          "words": 8835575
+        },
+        "urd_Latn": {
+          "cells": 10000,
+          "tokens": 17288275,
+          "tokens_per_word": 1.9567,
+          "turn_texts": 56644,
+          "words": 8835309
+        }
+      },
+      "source_rows": 10000,
+      "source_text_tokens": 535737558,
+      "status": "RUN",
+      "totals": {
+        "cells": 280000,
+        "tokens": 535737558,
+        "tokens_per_word": 2.9953,
+        "turn_texts": 1585762,
+        "words": 178861585
+      },
+      "units": {
+        "retained": 757658,
+        "retention": 0.977746,
+        "total": 774903
+      }
+    }
+  },
+  "method": "Retained streams from the pre-tokenizer phase were not preserved, so tokens are measured over the SOURCE sample text (all interaction strings, all language columns) and scaled by unit-level retention (retained_units / total_units) to estimate retained tokens. ESTIMATE, not a retained-stream measurement. Encoding without special tokens; words = whitespace-separated segments.",
+  "stage": "legacy_named_tokenizer_estimate",
+  "status": "RUN",
+  "tokenizer": {
+    "repo": "theschoolofai/BrahmicTokenizer-131K",
+    "revision": "93df154cbc9dbf038a222c010d9b43906a8a72c3",
+    "vocab_size": 131072
+  }
+}
